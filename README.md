@@ -1,18 +1,6 @@
 # Inventário de Camisas de Futebol
 
-Este é o Projeto de Programação de Programação II (Prof. Lucio), com o tema **loja de camisas de futebol**. O programa usa só a biblioteca padrão do Python, então não precisa instalar nada. Foi testado no Python 3.9 e no 3.14.
-
-## Como rodar
-
-Abra o terminal **na pasta do projeto** e execute:
-
-```bash
-python3 main.py
-```
-
-(No Windows: `python main.py`.) Na primeira execução, o programa cria o `login.txt` e pede o usuário e a senha iniciais.
-
-> Rode num terminal de verdade (Terminal do macOS, PowerShell ou o terminal do VS Code). No IDLE ou no console "Run" de algumas IDEs, a senha pode aparecer na tela.
+Este é o Projeto de Programação de Programação II (Prof. Lucio), com o tema **loja de camisas de futebol**. 
 
 ## Arquivos do projeto
 
@@ -50,18 +38,3 @@ TIME MODELO ANO TAMANHO        ex.: Flamengo I 2026 G
 - **Tamanhos:** PP, P, M, G, GG, XG. Cada tamanho é um cadastro separado, porque cada um tem o seu estoque.
 - **Importada:** "S" para camisas de times de fora (Real Madrid, PSG...), "N" para as nacionais.
 
-## Teste com mais de 100 camisas
-
-```bash
-python3 gerar_dados_teste.py
-```
-
-Esse comando gera 150 camisas fictícias (cifradas), e a listagem passa a usar o **Merge Sort**. Ele sobrescreve o `inventario.csv`, então usem só para testar ou demonstrar.
-
-## O que não entregar
-
-Não entreguem o `gerar_dados_teste.py`, o `login.txt`, o `inventario.csv` (o PDF pede que os dados de exemplo fiquem só na apresentação) nem a pasta `aulas`.
-
-## Relatório
-
-O relatório técnico está em `Relatorio_Tecnico.docx` e `Relatorio_Tecnico.pdf`. Antes de entregar, preencham na capa os campos destacados em amarelo: unidade, integrantes e cidade.
